@@ -1,0 +1,185 @@
+//==================================================
+//
+// テクスチャのパス読み込み用ファイル [tex_pas.txt]
+// Author : SHUGO KURODA
+//
+//==================================================
+SCRIPT		# この行は消さないこと！
+
+//==================================================
+// テクスチャ最大数
+//==================================================
+TEX_NUM = 28
+
+//==================================================
+// テクスチャ読み込み情報
+//==================================================
+// タイトル床
+TEXSET
+	PAS = data/TEXTURE/floor000.png
+	NAME = TEX_TYPE_TITLE_FLOOR
+END_TEXSET
+
+// スコアUI
+TEXSET
+	PAS = data/TEXTURE/number000.png
+	NAME = TEX_TYPE_SCORE_UI
+END_TEXSET
+
+// ゲーム開始UI
+TEXSET
+	PAS = data/TEXTURE/Start000.png
+	NAME = TEX_TYPE_START_UI
+END_TEXSET
+
+// ゲーム終了UI
+TEXSET
+	PAS = data/TEXTURE/finish000.png
+	NAME = TEX_TYPE_END_UI
+END_TEXSET
+
+// ゲーム画面背景
+TEXSET
+	PAS = data/TEXTURE/sky000.jpg
+	NAME = TEX_TYPE_GAME_BG
+END_TEXSET
+
+// 逃走ロゴ
+TEXSET
+	PAS = data/TEXTURE/escape.png
+	NAME = TEX_TYPE_LOGO_ESCAPE
+END_TEXSET
+
+// newレコードUI
+TEXSET
+	PAS = data/TEXTURE/record.jpg
+	NAME = TEX_TYPE_UI_RECORD
+END_TEXSET
+
+// プレイヤー表記ロゴ1P
+TEXSET
+	PAS = data/TEXTURE/PP1player.png
+	NAME = TEX_TYPE_BILLBOARD_1P
+END_TEXSET
+
+// プレイヤー表記ロゴ2P
+TEXSET
+	PAS = data/TEXTURE/PP2player.png
+	NAME = TEX_TYPE_BILLBOARD_2P
+END_TEXSET
+
+// プレイヤー表記ロゴ3P
+TEXSET
+	PAS = data/TEXTURE/PP3player.png
+	NAME = TEX_TYPE_BILLBOARD_3P
+END_TEXSET
+
+// プレイヤー表記ロゴ4P
+TEXSET
+	PAS = data/TEXTURE/PP4player.png
+	NAME = TEX_TYPE_BILLBOARD_4P
+END_TEXSET
+
+// ポーズ画面枠
+TEXSET
+	PAS = data/TEXTURE/pause000.png
+	NAME = TEX_TYPE_PAUSE_FRAME
+END_TEXSET
+
+// やり直し(ポーズ)
+TEXSET
+	PAS = data/TEXTURE/pause001.png
+	NAME = TEX_TYPE_PAUSE_RETURN
+END_TEXSET
+
+// 終了(ポーズ)
+TEXSET
+	PAS = data/TEXTURE/pause002.png
+	NAME = TEX_TYPE_PAUSE_END
+END_TEXSET
+
+// 選択カーソル(ポーズ)
+TEXSET
+	PAS = data/TEXTURE/option000.png
+	NAME = TEX_TYPE_PAUSE_CURSOR
+END_TEXSE
+
+// 勝利ロゴ1P
+TEXSET
+	PAS = data/TEXTURE/win000.png
+	NAME = TEX_TYPE_LOGO_WIN1P
+END_TEXSET
+
+// 勝利ロゴ2P
+TEXSET
+	PAS = data/TEXTURE/win001.png
+	NAME = TEX_TYPE_LOGO_WIN2P
+END_TEXSET
+
+// 勝利ロゴ3P
+TEXSET
+	PAS = data/TEXTURE/win002.png
+	NAME = TEX_TYPE_LOGO_WIN3P
+END_TEXSET
+
+// 勝利ロゴ4P
+TEXSET
+	PAS = data/TEXTURE/win003.png
+	NAME = TEX_TYPE_LOGO_WIN4P
+END_TEXSET
+
+// ハイスコア更新ロゴ
+TEXSET
+	PAS = data/TEXTURE/HiScore000.png
+	NAME = TEX_TYPE_LOGO_HISCORE
+END_TEXSET
+
+// タイトルロゴ
+TEXSET
+	PAS = data/TEXTURE/title000.png
+	NAME = TEX_TYPE_LOGO_TITLE
+END_TEXSET
+
+// 開始催促ロゴ
+TEXSET
+	PAS = data/TEXTURE/title001.png
+	NAME = TEX_TYPE_LOGO_TITLEPUSH
+END_TEXSET
+
+// チュートリアルボタン
+TEXSET
+	PAS = data/TEXTURE/tutorial000.png
+	NAME = TEX_TYPE_TUTORIAL_BUTTON
+END_TEXSET
+
+// チュートリアル画像
+TEXSET
+	PAS = data/TEXTURE/tutorial002.png
+	NAME = TEX_TYPE_TUTORIAL_IMAGE
+END_TEXSET
+
+// 準備中
+TEXSET
+	PAS = data/TEXTURE/UI000.png
+	NAME = TEX_TYPE_UI_SET
+END_TEXSET
+
+// 準備完了
+TEXSET
+	PAS = data/TEXTURE/UI001.png
+	NAME = TEX_TYPE_UI_OK
+END_TEXSET
+
+// 準備する
+TEXSET
+	PAS = data/TEXTURE/UI002.png
+	NAME = TEX_TYPE_UI_1
+END_TEXSET
+
+// 参加
+TEXSET
+	PAS = data/TEXTURE/UI003.png
+	NAME = TEX_TYPE_UI_2
+END_TEXSET
+
+END_SCRIPT		# この行は消さないこと！
