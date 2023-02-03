@@ -1,0 +1,15 @@
+なんのSEかメモ
+
+powerSE.wav = アイテムを取った時
+stanSE.wav = スタンした時
+startSE.wav = スタートするときの音
+voiceSE.wav = 咆哮
+attackSE.wav = 攻撃
+buffSE.wav = 効果アップ
+damage.wav = 攻撃食らった
+dieSE.wav = 死亡
+gameendSE.wav = ゲーム終了
+jumpSE.wav = ジャンプ
+playerjoinSE.wav = プレイヤー参加音
+poseSE.wav = ポーズ画面開く音
+

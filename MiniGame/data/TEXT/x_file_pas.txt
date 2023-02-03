@@ -1,0 +1,155 @@
+//==================================================
+//
+// Xファイルのパス読み込み用ファイル [x_file_pas.txt]
+// Author : SHUGO KURODA
+//
+//==================================================
+SCRIPT		# この行は消さないこと！
+
+//==================================================
+// Xファイル最大数
+//==================================================
+XFILE_NUM = 23
+
+//==================================================
+// Xファイル読み込み情報
+//==================================================
+//メタル
+XFILESET
+	PAS = data/MODEL/model/MetalBox.x
+	NAME = XFILE_TYPE_ITEM_METAL
+END_XFILESET
+
+//★
+XFILESET
+	PAS = data/MODEL/model/Star.x
+	NAME = XFILE_TYPE_STAR
+END_XFILESET
+
+//鷲巣
+XFILESET
+	PAS = data/MODEL/model/wasizu.x
+	NAME = XFILE_TYPE_WASIZU
+END_XFILESET
+
+//アイテム
+XFILESET
+	PAS = data/MODEL/model/shoe.x
+	NAME = XFILE_TYPE_SHOE
+END_XFILESET
+
+//障害物(小)
+XFILESET
+	PAS = data/MODEL/model/RockIce2.x
+	NAME = XFILE_TYPE_ROCKICE_SMALL
+END_XFILESET
+
+//障害物(中)
+XFILESET
+	PAS = data/MODEL/model/RockIce_big.x
+	NAME = XFILE_TYPE_ROCKICE_NORMAL
+END_XFILESET
+
+//障害物(大)
+XFILESET
+	PAS = data/MODEL/model/RockIce_giga.x
+	NAME = XFILE_TYPE_ROCKICE_BIG
+END_XFILESET
+
+//クレバス(落とし穴)
+XFILESET
+	PAS = data/MODEL/model/Crevasse.x
+	NAME = XFILE_TYPE_CREVASSE
+END_XFILESET
+
+//木 type 1
+XFILESET
+	PAS = data/MODEL/model/木_type1.x
+	NAME = XFILE_TYPE_WOOD_1
+END_XFILESET
+
+//木 type 2
+XFILESET
+	PAS = data/MODEL/model/木_type2.x
+	NAME = XFILE_TYPE_WOOD_2
+END_XFILESET
+
+//木 type 3
+XFILESET
+	PAS = data/MODEL/model/木_type3.x
+	NAME = XFILE_TYPE_WOOD_3
+END_XFILESET
+
+//木 type 4
+XFILESET
+	PAS = data/MODEL/model/木_type4.x
+	NAME = XFILE_TYPE_WOOD_4
+END_XFILESET
+
+//boss_test
+XFILESET
+	PAS = data/MODEL/model/boss_test.x
+	NAME = XFILE_TYPE_BOSS
+END_XFILESET
+
+//House_wall_door
+XFILESET
+	PAS = data/MODEL/model/House_wall_door.x
+	NAME = XFILE_TYPE_HOUSE_WALL_DOOR
+END_XFILESET
+
+//House_wall_window
+XFILESET
+	PAS = data/MODEL/model/House_wall_window.x
+	NAME = XFILE_TYPE_HOUSE_WALL_WINDOW
+END_XFILESET
+
+//House_wall_window
+XFILESET
+	PAS = data/MODEL/model/House_wall_window2.x
+	NAME = XFILE_TYPE_HOUSE_WALL_WINDOW2
+END_XFILESET
+
+//House_floor
+XFILESET
+	PAS = data/MODEL/model/House_floor.x
+	NAME = XFILE_TYPE_HOUSE_FLOOR
+END_XFILESET
+
+//House_wall_roof
+XFILESET
+	PAS = data/MODEL/model/House_roof.x
+	NAME = XFILE_TYPE_HOUSE_ROOF
+END_XFILESET
+
+//House_bed
+XFILESET
+	PAS = data/MODEL/model/House_bed.x
+	NAME = XFILE_TYPE_HOUSE_BED
+END_XFILESET
+
+//House_テレビ
+XFILESET
+	PAS = data/MODEL/model/House_テレビ.x
+	NAME = XFILE_TYPE_HOUSE_TV
+END_XFILESET
+
+//House_下机
+XFILESET
+	PAS = data/MODEL/model/House_下机.x
+	NAME = XFILE_TYPE_HOUSE_UNDERSHELF
+END_XFILESET
+
+//House_上机
+XFILESET
+	PAS = data/MODEL/model/House_上机.x
+	NAME = XFILE_TYPE_HOUSE_UPPERSHELF
+END_XFILESET
+
+//House_冷蔵庫
+XFILESET
+	PAS = data/MODEL/model/House_冷蔵庫.x
+	NAME = XFILE_TYPE_HOUSE_FRIDGE
+END_XFILESET
+
+END_SCRIPT		# この行は消さないこと！
